@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'pages/page_execution.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'fashen_bok',
       // première page 
-      home: const PageExecution(), // première page 
+      home: const PageExecution(), 
     );
   }
 }
